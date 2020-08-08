@@ -32,6 +32,7 @@ public class Tester1 {
   public static void main(String[] args) throws IOException {
 	  
 	  
+	  //Check if there is a token
 	  String token = System.getenv("ORS_TOKEN");
 	  if (token == null || token.trim().length() == 0) {
           //System.out.println("Please set the API token in ORS_TOKEN environment variable");
